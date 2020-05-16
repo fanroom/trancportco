@@ -59,5 +59,6 @@ class Car(models.Model):
     Inspection_date = models.DateField()
     Carrying_capacity = models.SmallIntegerField(max_length=5)  # Грузоподъемность
     Fuel_consumption_per_100_km = models.SmallIntegerField(max_length=3)
+    # test
 # class Receipt(models.Model):
 #    client = models.ForeignKey(Client, on_delete=PROTECT)
